@@ -1,7 +1,7 @@
 # BILL2
 Scripts for parsing a VCF file resulting from bcf-tools merge
 
-The Jupyter Notebook contains scripts to parse a VCF file resulting from `vcftools merge`.
+The Jupyter Notebook contains scripts to parse a VCF file resulting from `bcftools merge`.
 This script generates a simplified VCF file as TSV.
 
 The issue with the TSV file generated is that it keeps structural variants at the same position.
