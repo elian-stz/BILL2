@@ -1,0 +1,26 @@
+##fileformat=VCFv4.2
+##source=combiSV-v2.2
+##fileDate=Sun Sep 24 16:02:35 2023
+##contig=<ID=DQ657948.1,length=272677>
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=INV,Description="Inversion">
+##ALT=<ID=DUP,Description="Duplication">
+##ALT=<ID=INS,Description="Insertion">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Difference in length between REF and ALT alleles">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##INFO=<ID=SVCALLERS,Number=.,Type=String,Description="SV callers that support this SV">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DR,Number=1,Type=Integer,Description="# High-quality reference reads">
+##FORMAT=<ID=DV,Number=1,Type=Integer,Description="# High-quality variant reads">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample
+DQ657948.1	22619	id.1	N	<INS>	.	PASS	SVTYPE=INS;SVLEN=48;END=22619;SVCALLERS=cutesv,NanoSV	GT:DR:DV	0/1:172:205
+DQ657948.1	37878	id.2	N	<INS>	.	PASS	SVTYPE=INS;SVLEN=78;END=37879;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:21:385
+DQ657948.1	49267	id.3	N	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=75;END=49343;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:179:192
+DQ657948.1	76047	id.4	N	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=66;END=76114;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:194:172
+DQ657948.1	91153	id.5	N	<INS>	.	PASS	SVTYPE=INS;SVLEN=84;END=91154;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:139:144
+DQ657948.1	143510	id.6	N	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=96;END=143605;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:10:299
+DQ657948.1	155453	id.7	N	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=66;END=155512;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	1/1:2:365
+DQ657948.1	177652	id.8	N	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=76;END=177646;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:3:341
+DQ657948.1	216551	id.9	N	<INS>	.	PASS	SVTYPE=INS;SVLEN=81;END=216552;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:141:194
+DQ657948.1	228209	id.10	N	<INS>	.	PASS	SVTYPE=INS;SVLEN=74;END=228198;SVCALLERS=Sniffles,cutesv,NanoSV	GT:DR:DV	0/1:146:214
